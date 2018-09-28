@@ -1,2 +1,2 @@
-# ikraP.github.io
-Marie Curie tribute page for freecodecamp.com
+# Ikra Pervaiz 
+Marie Curie tribute page
