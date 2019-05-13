@@ -48,20 +48,6 @@ img {
   font-family: "Raleway", sans-serif;
 }
 
-/* Not working currently - 
-
-.timeline:after {
-  content: "";
-  position: absolute;
-  width: 3px;
-  height: 165%;
-  background-color: #4f6367;
-  top: 1225px;
-  bottom: 0;
-  left: 49.9%;
-  z-index: 5;
-} */
-
 .timeline-header {
   background-color: white;
 }
