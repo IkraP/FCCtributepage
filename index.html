@@ -1,57 +1,171 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title> Tribute Page: Marie Curie</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Marie Curie | Tribute</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="src/styles/styles.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Title and quote -->
+    <section class="hero ">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            Marie Curie
+          </h1>
+          <h2 class="quote">
+            <i
+              >"Nothing in life is to be feared; it is only to be
+              understood."</i
+            >
+          </h2>
+        </div>
+      </div>
+    </section>
+    <!-- Image and caption -->
 
-    <link rel="stylesheet" href="src/styles/styles.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-</head>
-<body>
+    <div class="columns ">
+      <div class="column">
+        <figure class="image">
+          <img src="src\img\madam curie.jpg" alt="a statue of Marie Curie" />
+          <div class="caption">
+            A statue of Marie Curie at the Parque de las Ciencias, a science
+            centre and museum located in Granada, Spain
+          </div>
+        </figure>
+      </div>
 
-<div id="main">
-        <h1 id="title">Marie Curie</h1>
-        <blockquote>
-            <div id="quote"><em>" Nothing in life is to be feared; it is only to be understood. "</em></div>
-        </blockquote>
-
-    <div id="img-div">
-        <img id="image" src="FCCtributepage/src/img/madam curie.jpg" alt="A statue of Marie Curie">
-        <div id="img-caption"> A statue of Marie Curie at the Parque de las Ciencias, <br>a science centre and museum located in Granada, Spain
+      <!-- Timeline of Marie Curie life -->
+      <div class="column">
+        <div class="timeline">
+          <header class="timeline-header">
+            <span class="tag is-medium is-primary">Life timeline </span>
+          </header>
+          <div class="timeline-item">
+            <div class="timeline-content">
+              <p class="heading">1867</p>
+              <p>Born Maria Sklodowska in Poland on the 7 November 1867</p>
+            </div>
+          </div>
+          <div class="timeline-marker">
+            <i class="fa fa-circle"></i>
+          </div>
+          <div class="timeline-content">
+            <p class="heading">1891</p>
+            <p>
+              Her sister offered her to stay in Paris, with the intention that
+              she will study at the university. Marie jumped at the opportunity
+              and went to study physics and mathematics at Sorbonne University.
+            </p>
+          </div>
+          <div class="timeline-marker">
+            <i class="fa fa-circle"></i>
+          </div>
+          <div class="timeline-content">
+            <p class="heading">1895</p>
+            <p>
+              In France, she met her husband, Pierre Curie, who was the
+              professor of the School of Physics. They married in 1895.
+            </p>
+            <p>
+              The Curies became researchers at the School of Chemistry and
+              Physics working on radioactivity. They built upon the pioneering
+              work of Professor Henry Becquerel who discovered the new
+              phenomenon of invisible radiation emitted from uranium.
+            </p>
+          </div>
+          <div class="timeline-marker ">
+            <i class="fa fa-circle"></i>
+          </div>
+          <div class="timeline-content">
+            <p class="heading">1898</p>
+            <p>
+              Marie discovered that the mineral, pitchblende, was more
+              radioactive than pure uranium. Further work indicated that uranium
+              alone was not the sole reason for the radioactive readings,
+              therefore, indicating a new element was present in the sample.<br />
+              They discovered a black powder, that was 330x more radioactive
+              than uranium. In July 1898, the Curies announced the discovery of
+              the new chemical element, polonium.<br />
+              Upon further inspection, the remaining liquid found after polonium
+              was extracted, was still extremely radioactive, even more so than
+              polonium. The Curies then published evidence that a potential new
+              chemical element had been discovered, which they called radium.
+            </p>
+          </div>
+          <div class="timeline-marker">
+            <i class="fa fa-circle"></i>
+          </div>
+          <div class="timeline-content">
+            <p class="heading">1903</p>
+            <p>
+              After extensive work in trying to obtain a sample of this new
+              element, Marie finally managed to isolate radium. The Curies were
+              awarded, with Henry Becquerel, the Nobel Prize for Physics in
+              1903.
+            </p>
+          </div>
+          <div class="timeline-marker">
+            <i class="fa fa-circle"></i>
+          </div>
+          <div class="timeline-content">
+            <p class="heading">1906</p>
+            <p>
+              Pierre's death from a carriage, saw Marie take up her late
+              husbands teaching post. This was a historical event, as this was
+              the first time a woman was teaching at Sorbonne University.
+            </p>
+          </div>
+          <div class="timeline-marker">
+            <i class="fa fa-circle"></i>
+          </div>
+          <div class="timeline-content">
+            <p class="heading">1911</p>
+            <p>
+              Marie continued to work hard and received her second Nobel Prize
+              for Chemistry.
+            </p>
+          </div>
+          <div class="timeline-marker">
+            <i class="fa fa-circle"></i>
+          </div>
+          <div class="timeline-content">
+            <p class="heading">1934</p>
+            <p>
+              Marie's health started deteriorating and sadly on the 4th July
+              1934, she died from leukaemia caused by the high level of
+              radiation exposure
+            </p>
+          </div>
+          <footer class="timeline-header">
+            <span class="tag is-large is-primary">1867 - 1934</span>
+          </footer>
+        </div>
+      </div>
     </div>
 
-    <div>
-        <h3 id="tribute-title"> <u>Timeline of Marie Curie's life:</u></h3>
-        <ul id ="tribute-info">
-            <li> Born Maria Sklodowska in Poland on the 7 November <b>1867.</b> </li>
-            <li> In <b>1891</b>, her sister offered her to stay in Paris, with the intention that she will study at the university. Marie jumped at the opportunity and went to study physics and mathematics at Sorbonne University. </li>
-            <li> In France, she met her husband, Pierre Curie, who was the professor of the School of Physics. They married in <b>1895.</b></li>
-            <li> The Curies became researchers at the School of Chemistry and Physics working on radioactivity. 
-                 They built upon the pioneering work of Professor Henry Becquerel who discovered the new phenomenon of invisible radiation emitted from uranium. </li>
-            <li> Marie discovered that the mineral, pitchblende, was more radioactive than pure uranium. 
-                 Further work indicated that uranium alone was not the sole reason for the radioactive readings, therefore, indicating a new element was present in the sample. </li>
-            <li> The Curies then set out to research extensively to uncover the new element. They discovered a black powder, that was 330x more radioactive than uranium.
-                 In July <b>1898</b>, the Curies announced the discovery of the new chemical element, polonium. </li>
-            <li> Upon further inspection, the remaining liquid found after polonium was extracted, was still extremely radioactive, even more so than polonium. 
-                 The Curies then published evidence that a potential new chemical element had been discovered, which they called radium. </li>
-            <li> However, no sample was obtained due to the expense of obtaining the mineral, pitchblende. After some research, Marie managed to obtain 
-                ,pitchblende from a company in Austria, that extracted uranium from pitchblende and discarded the waste product. </li>
-            <li> After extensive work in trying to obtain a sample of this new element, Marie finally managed to isolate radium. The Curies were awarded, with Henry Becquerel, 
-                 the Nobel Prize for Physics in <b>1903</b>. </li>
-            <li> In <b>1906</b>, Pierre's death from a carriage, saw Marie take up her late husbands teaching post. This was a historical event, 
-                as this was the first time a woman was teaching at Sorbonne University. Marie continued to work hard and received her second Nobel Prize in Chemistry, in <b>1911</b>.</li>
-            <li> The Curies research was fundamental to the development of x-rays in surgery. In World War One, the x-ray equipment was used in ambulances, 
-                that Marie would drive to the front-line herself. </li>
-            <li> In the <b>1920's</b>, Marie's health was deteriorating and sadly on the 4th July <b>1934</b> she died from leukaemia caused by the high level of radiation exposure </li>
-        </ul>
-    </div>
-
-    <div id="tribute-link">
-        For more information on the amazing Marie Curie, <a href="https://www.mariecurie.org.uk/who/our-history/marie-curie-the-scientist" target="_blank"> click here!</a> 
-    </div>
-
-</div>
-</body>
+    <footer>
+      <div id="tribute-link">
+        Click for more information on
+        <a
+          href="https://www.mariecurie.org.uk/who/our-history/marie-curie-the-scientist"
+          target="_blank"
+        >
+          Marie Curie</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
