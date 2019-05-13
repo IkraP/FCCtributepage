@@ -20,7 +20,7 @@ body {
 }
 
 .image {
-  width: 500px;
+  max-width: 500px;
   justify-content: center;
   display: block;
 }
@@ -48,7 +48,9 @@ img {
   font-family: "Raleway", sans-serif;
 }
 
-/* .timeline:after {
+/* Not working currently - 
+
+.timeline:after {
   content: "";
   position: absolute;
   width: 3px;
